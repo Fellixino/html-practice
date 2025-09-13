@@ -16,3 +16,13 @@ header {
 #projects { 
     margin-top: 20px; 
 }
+.cards { 
+    display: flex; gap: 10px; 
+    flex-wrap: wrap; 
+}
+.card { 
+    background:white; 
+    padding:15px; 
+    flex:1 1 200px; 
+    border-radius:6px; 
+}
